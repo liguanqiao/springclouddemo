@@ -15,32 +15,16 @@ Spring Cloud + Mybatis Plus 微服务Demo
 │  │
 │  ├─springclouddemo-common--------------------------公共包
 │  │
-│  ├─paascloud-generator------------------数据服务中心Mybatis Plus Generator
+│  ├─springclouddemo-generator------------------数据服务中心Mybatis Plus Generator
 │  │
-│  ├─paascloud-provider--------------------------微服务消费者
+│  ├─springclouddemo-provider--------------------------微服务消费者
 │  │  │
-│  │  ├─paascloud-provider-mdc------------------数据服务中心
+│  │  ├─springclouddemo-provider-uac------------------用户控制中心
 │  │  │
-│  │  ├─paascloud-provider-omc------------------订单服务中心
-│  │  │
-│  │  ├─paascloud-provider-opc------------------对接服务中心
-│  │  │
-│  │  ├─paascloud-provider-tpc------------------任务服务中心
-│  │  │
-│  │  └─paascloud-provider-uac------------------用户服务中心
+│  │  ├─springclouddemo-provider-test------------------测试消费者
 │  │
-│  ├─paascloud-provider-api--------------------------微服务提供者
+│  ├─springclouddemo-provider-api--------------------------微服务提供者
 │  │  │
-│  │  ├─paascloud-provider-mdc-api------------------数据服务中心API
-│  │  │
-│  │  ├─paascloud-provider-omc-api------------------订单服务中心API
-│  │  │
-│  │  ├─paascloud-provider-opc-api------------------对接服务中心API
-│  │  │
-│  │  ├─paascloud-provider-tpc-api------------------任务服务中心API
-│  │  │
-│  │  ├─paascloud-provider-sdk-api------------------可靠消息服务API
-│  │  │
-│  │  └─paascloud-provider-uac-api------------------用户服务中心API
+│  │  ├─springclouddemo-provider-uac-api------------------用户控制中心API
 
 ```
