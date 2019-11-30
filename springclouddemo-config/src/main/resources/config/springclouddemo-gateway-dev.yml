@@ -1,0 +1,7 @@
+zuul:
+  ignored-services: "*"
+  ignored-patterns: /**/api/**
+  routes:
+    mydept:
+      serviceId: springclouddemo-provider-uac
+      path: /uac/**
